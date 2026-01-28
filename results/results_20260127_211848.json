@@ -1,0 +1,35 @@
+{
+  "config": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 200,
+    "early_stopping_patience": 30,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "dropout": 0.2,
+    "node_dim": 5,
+    "num_bead_types": 50,
+    "embedding_dim": 32,
+    "edge_dim": 3,
+    "k_folds": 5
+  },
+  "val_metrics": {
+    "mae": 0.06858278810977936,
+    "mse": 0.016261685639619827,
+    "r2": 0.8056604862213135,
+    "spearman": 0.8760747114151443,
+    "loss": 0.01963175367563963
+  },
+  "test_metrics": {
+    "mae": 0.06078317388892174,
+    "mse": 0.009689687751233578,
+    "r2": 0.9035630822181702,
+    "spearman": 0.9453227931488799
+  },
+  "split_info": {
+    "train_size": 209,
+    "val_size": 45,
+    "test_size": 45
+  }
+}

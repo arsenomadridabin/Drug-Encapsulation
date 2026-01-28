@@ -1,0 +1,28 @@
+{
+  "config": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 200,
+    "early_stopping_patience": 30,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "dropout": 0.2,
+    "node_dim": 5,
+    "num_bead_types": 50,
+    "embedding_dim": 32,
+    "edge_dim": 3
+  },
+  "val_metrics": {
+    "mae": 0.07926981896162033,
+    "mse": 0.010512172244489193,
+    "r2": 0.843651294708252,
+    "spearman": 0.9171525518037392
+  },
+  "test_metrics": {
+    "mae": 0.06641503423452377,
+    "mse": 0.008414460346102715,
+    "r2": 0.8798632025718689,
+    "spearman": 0.8842847265905924
+  }
+}
