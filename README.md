@@ -1,4 +1,4 @@
-# Molecular Property Prediction Framework
+# Drug Encapsulation Prediction using MPNN
 
 This repository contains the training and inference pipeline for a deep
 learning model used for encapusulation rate prediction.
